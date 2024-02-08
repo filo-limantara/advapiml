@@ -1,3 +1,3 @@
 # advmlapi
 
-Assortment of experimental advanced machine learning api & algorithms 
+Assortment of Filo's experimental machine learning api & algorithms 
