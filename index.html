@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Website</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #e0f7fa;
             color: #333;
         }
 
         header {
-            background-color: #4CAF50;
+            background-color: #0277bd;
             color: white;
             text-align: center;
             padding: 1em 0;
@@ -23,7 +24,7 @@
         nav {
             display: flex;
             justify-content: center;
-            background-color: #333;
+            background-color: #01579b;
         }
 
         nav a {
@@ -34,7 +35,7 @@
         }
 
         nav a:hover {
-            background-color: #ddd;
+            background-color: #b3e5fc;
             color: black;
         }
 
@@ -61,7 +62,7 @@
         footer {
             text-align: center;
             padding: 10px 0;
-            background-color: #333;
+            background-color: #01579b;
             color: white;
         }
     </style>
@@ -70,31 +71,37 @@
     <header>
         <h1>Welcome to My Personal Website</h1>
     </header>
-    <nav>
-        <a href="#about">About Me</a>
-        <a href="#life">My Life</a>
-        <a href="#portfolio">Portfolio</a>
+    <nav class="pure-menu pure-menu-horizontal">
+        <a href="#about" class="pure-menu-heading pure-menu-link">About Me</a>
+        <a href="#life" class="pure-menu-heading pure-menu-link">My Life</a>
+        <a href="#portfolio" class="pure-menu-heading pure-menu-link">Portfolio</a>
     </nav>
     <div class="container">
-        <div id="about" class="section">
-            <h2>About Me</h2>
-            <p>Hi, I'm [Your Name]. I'm a [Your Profession/Occupation]. I have a passion for [Your Passion].</p>
-        </div>
-        <div id="life" class="section">
-            <h2>My Life</h2>
-            <p>Born and raised in [Your Birthplace], I have always been fascinated by [Something Interesting About Your Life]. My journey started when I [A Brief Story About Your Life].</p>
-        </div>
-        <div id="portfolio" class="section">
-            <h2>Portfolio</h2>
-            <div class="portfolio-item">
-                <h3>Project Title 1</h3>
-                <p>Description of your project. What did you do, what technologies did you use, etc.</p>
+        <div id="about" class="section pure-g">
+            <div class="pure-u-1">
+                <h2>About Me</h2>
+                <p>Hi, I'm [Your Name]. I'm a [Your Profession/Occupation]. I have a passion for [Your Passion].</p>
             </div>
-            <div class="portfolio-item">
-                <h3>Project Title 2</h3>
-                <p>Description of your project. What did you do, what technologies did you use, etc.</p>
+        </div>
+        <div id="life" class="section pure-g">
+            <div class="pure-u-1">
+                <h2>My Life</h2>
+                <p>Born and raised in [Your Birthplace], I have always been fascinated by [Something Interesting About Your Life]. My journey started when I [A Brief Story About Your Life].</p>
             </div>
-            <!-- Add more projects as needed -->
+        </div>
+        <div id="portfolio" class="section pure-g">
+            <div class="pure-u-1">
+                <h2>Portfolio</h2>
+                <div class="portfolio-item">
+                    <h3>Project Title 1</h3>
+                    <p>Description of your project. What did you do, what technologies did you use, etc.</p>
+                </div>
+                <div class="portfolio-item">
+                    <h3>Project Title 2</h3>
+                    <p>Description of your project. What did you do, what technologies did you use, etc.</p>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
         </div>
     </div>
     <footer>
