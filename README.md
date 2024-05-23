@@ -1,3 +1,1 @@
-# advmlapi
-
-Assortment of Filo's experimental machine learning api & algorithms 
+This is site about Filo's information, project, and portfolio.
